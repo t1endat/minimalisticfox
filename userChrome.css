@@ -84,3 +84,14 @@ menu, menuitem:where([_moz-menuactive]:not([disabled="true"])){
 	background-color: #242429 !important;
 }
 */
+
+/* hide statuspanel */
+/* source: https://support.mozilla.org/en-US/questions/1289382 */
+#statuspanel[type="overLink"] #statuspanel-label {
+ display:none!important;
+}
+
+/* fix urlbar being too high in ff 74 */
+* {
+  --urlbar-toolbar-height: 32px !important;
+}
