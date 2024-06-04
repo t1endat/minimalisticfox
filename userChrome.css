@@ -20,9 +20,9 @@
 }
 
 /* fix urlbar being too high in ff 74 */
-* {
-	--urlbar-toolbar-height: 32px !important;
-}
+/* * { */
+/* 	--urlbar-toolbar-height: 32px !important; */
+/* } */
 
 /* hiding tab stuff */
 .tab-background {
@@ -89,9 +89,4 @@ menu, menuitem:where([_moz-menuactive]:not([disabled="true"])){
 /* source: https://support.mozilla.org/en-US/questions/1289382 */
 #statuspanel[type="overLink"] #statuspanel-label {
  display:none!important;
-}
-
-/* fix urlbar being too high in ff 74 */
-* {
-  --urlbar-toolbar-height: 32px !important;
 }
