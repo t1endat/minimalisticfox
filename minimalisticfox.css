@@ -1,23 +1,24 @@
+
 /* hide nav-bar */
-#nav-bar:not([customizing="true"]) {
-	min-height: 0px !important;
-	max-height: 0px !important;
-	margin-top: 0px !important;
-	margin-bottom: -0px !important;
-	transition: all 100ms ease 0s !important;
-	z-index: -5 !important;
-}
+/* #nav-bar:not([customizing="true"]) { */
+	/* min-height: 0px !important; */
+	/* max-height: 0px !important; */
+	/* margin-top: 0px !important; */
+	/* margin-bottom: -0px !important; */
+	/* transition: all 100ms ease 0s !important; */
+	/* z-index: -5 !important; */
+/* } */
 
 /* show nav-bar on navigator-toolbox hover/focus */
-#navigator-toolbox:hover :-moz-any(#nav-bar),
-#navigator-toolbox:focus-within :-moz-any(#nav-bar) {
-	min-height: 32px !important;
-	max-height: 32px !important;
-	margin-top: 0px !important;
-	margin-bottom: -32px !important;
-	transition: all 100ms ease 0s !important;
-	z-index: 5 !important;
-}
+/* #navigator-toolbox:hover :-moz-any(#nav-bar), */
+/* #navigator-toolbox:focus-within :-moz-any(#nav-bar) { */
+	/* min-height: 32px !important; */
+	/* max-height: 32px !important; */
+	/* margin-top: 0px !important; */
+	/* margin-bottom: -32px !important; */
+	/* transition: all 100ms ease 0s !important; */
+	/* z-index: 5 !important; */
+/* } */
 
 /* fix urlbar being too high in ff 74 */
 * {
@@ -68,7 +69,7 @@
 
 /* Custom font */
 * {
-	font-family: Cascadia Code monospace !important;
+	/* font-family: Cascadia Code monospace !important; */
 }
 
 /* Context menu */
@@ -84,9 +85,3 @@ menu, menuitem:where([_moz-menuactive]:not([disabled="true"])){
 	background-color: #242429 !important;
 }
 */
-
-/* hide statuspanel */
-/* source: https://support.mozilla.org/en-US/questions/1289382 */
-#statuspanel[type="overLink"] #statuspanel-label {
- display:none!important;
-}
